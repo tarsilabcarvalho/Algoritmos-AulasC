@@ -6,6 +6,7 @@ main (){
     float somadasnotas = 0;
     int qtdnotas = 0;
 
+
     while (qtdnotas < 3){
 
     printf("Insira a %i a. nota: ", (qtdnotas + 1));

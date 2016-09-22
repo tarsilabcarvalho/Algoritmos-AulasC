@@ -4,20 +4,22 @@
 
 main() {
 
-    float nota, media, soma = 0;
-    int notas[2];
-    int qtnotas = 0;
-    int nota_atual = 0;
+    float nota, media;
+    int qtdnotas = 0;
+    float somadasnotas=0;
 
-    while (qtnotas <= qtd_max -1) {
-        printf ("Informe a nota do aluno ");
-        scanf("%f", &nota);
-        qtnotas = qtnotas + 1;
-    }
+    while (qtdnotas < 3){
 
-    soma = soma + nota;
+    printf ("Escreva a %i a. nota do aluno: ", (qtdnotas +1));
+    scanf ("%f", &nota);
 
+    somadasnotas = somadasnotas + nota;
+    qtdnotas = qtdnotas + 1;
 
     }
 
+    media = somadasnotas / 3;
+    printf("A media e %.2f", media);
 
+
+}
