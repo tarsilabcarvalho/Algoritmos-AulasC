@@ -11,6 +11,7 @@ main(){
     //enquanto contador começa no 0 e é menor ou igual a 10, incrementar mais um
 
         printf("%i\n", cont);
+
     }
 
 
