@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Tipo de Triangulo
+
 main(){
 
     float ladox, ladoy, ladoz, somaladosxy, somaladosyz, somaladoszx;
@@ -17,16 +19,12 @@ main(){
     somaladosyz = ladoy + ladoz;
     somaladoszx = ladoz + ladox;
 
-    if (ladox > somaladosyz){
-    printf("Os valores dados não correspondem a lados de um triangulo!");
-    } else if (ladoy > somaladoszx){
-    printf("Os valores dados não correspondem a lados de um triangulo!");
-    } else if (ladoz > somaladosxy){
+    if (ladox > somaladosyz || ladoy > somaladoszx ||ladoz > somaladosxy){
     printf("Os valores dados não correspondem a lados de um triangulo!");
     } else if (ladox == ladoy && ladoy == ladoz){
-    printf("Os valos dados formam um triangulo equilatero!");
+    printf("Os valores dados formam um triangulo equilatero!");
     } else if (ladox == ladoy || ladoy == ladoz || ladoz == ladox){
-    printf("Os valores dados formam um trinagulo isosceles!");
+    printf("Os valores dados formam um triangulo isosceles!");
     } else if (ladox != ladoy || ladoy != ladoz || ladoz != ladox){
     printf("Os valores dados formam um triangulo escaleno!");
     }

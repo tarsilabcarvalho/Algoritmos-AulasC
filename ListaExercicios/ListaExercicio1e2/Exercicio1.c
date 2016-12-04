@@ -1,6 +1,8 @@
 #include <stdio.h>
 #define pi 3.14159
 
+//Area da circunferencia
+
 main(){
 
     float raio, area;

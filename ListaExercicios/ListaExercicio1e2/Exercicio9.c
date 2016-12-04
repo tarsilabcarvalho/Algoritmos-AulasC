@@ -3,6 +3,8 @@
 #define picole2 0.60
 #define picole3 0.75
 
+//Venda de picole
+
 main(){
 
     int qtdadepicole1, qtdadepicole2, qtdadepicole3;

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//Calculo Salario
+
 main(){
 
     float ht, vh, pd, sb, td, sl;
